@@ -1,0 +1,157 @@
+<!-- /////////// -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+
+    <!-- ---------4-------- -->
+    <div class="section" id="sec1">
+      <div class="item item--1">TODOLIST</div>
+      <div class="item item--2">
+        <!-- 
+        <div class="it it--1">
+          <input class="addList" type="text" placeholder="what needs to be done?">
+        </div> -->
+
+          <input id="addList_input1" class="it it--1" type="text" placeholder="what needs to be done?">
+
+        <div onclick="addList()" class="it it--2">
+          <span class="icon_plus material-icons"> add </span>
+        </div>
+      </div>
+      <div id="addListContainer" class="item item--3">
+          <div  class="it1 it1--1 fin1 ">
+          <div class="osa">
+            <input
+              class="in1 "
+              type="checkbox"
+              id="scales1"
+              name="scales"
+              unchecked
+            />
+          </div>
+          <div>
+            <h1>
+              <label class="in" for="scales1"
+                >read the book at least(5 books )</label
+              >
+            </h1>
+          </div>
+        </div>
+     
+        <div class="it1 it1--2 ">
+          <span class="material-icons"> edit </span
+          ><span class="material-icons in2" onclick="del()" id="inn"   > clear </span>
+        </div>
+
+    
+        <div  class="it1 it1--3 fin1">
+          <div class="osa">
+            <input
+              class="in1"
+              type="checkbox"
+              id="scales2"
+              name="scales"
+              unchecked
+            />
+          </div>
+          <div>
+            <h1>
+              <label class="in" for="scales2"> buy dog food</label>
+            </h1>
+          </div>
+        </div>
+        <div class="it1 it1--4">
+          <span class="material-icons"> edit </span
+          ><span class="material-icons in2" onclick="del()"id="inn"   > clear </span>
+        </div>
+
+    
+        <div  class="it1 it1--5 fin1 ">
+          <div class="osa">
+            <input
+              class="in1"
+              type="checkbox"
+              id="scales3"
+              name="scales"
+              unchecked
+            />
+          </div>
+          <div>
+            <h1><label class="in" for="scales3">call my parents</label></h1>
+          </div>
+        </div>
+        <div class="it1 it1--6">
+          <span class="material-icons"> edit </span
+          ><span class="material-icons in2" onclick="del()" id="inn"      > clear </span>
+        </div>
+     
+
+        <div  class="it1 it1--7 fin1">
+          <div class="osa">
+            <input
+              type="checkbox"
+              class="in1"
+              id="scales4"
+              name="scales"
+              unchecked
+            />
+          </div>
+          <div>
+            <h1>
+              <label class="in" for="scales4">clean my working place</label>
+            </h1>
+          </div>
+        </div>
+        <div class="it1 it1--8">
+          <span class="material-icons"> edit </span
+          ><span class="material-icons in2" onclick="del()" id="inn"   > clear </span>
+        </div>
+
+    
+        <div  class="it1 it1--9 fin1">
+          <div class="osa">
+            <input
+              class="in1"
+              type="checkbox"
+              id="scales5"
+              name="scales"
+              unchecked
+            />
+          </div>
+          <div>
+            <h1><label class="in" for="scales5">kill bill</label></h1>
+          </div>
+        </div>
+        <div class="it1 it1--10">
+          <span class="material-icons"> edit </span
+          ><span class="material-icons in2" onclick="del()" id="inn"  > clear </span>
+        </div>
+      </div>
+      <div class="item item--4">
+        <div class="it2 it2--1">
+          <span id="tasks_number">3 of 5 tasks</span>
+          <span>done</span>
+        </div>
+        <div class="it2 it2--2" onclick="removeChecked()">
+          remove checked<span id="remove_all" class="material-icons">
+            clear
+         
+        </div>
+      </div>
+    </div>
+        <!-- ---------/4/-------- -->
+    
+        <script src="javascript.js"></script>
+  </body>
+</html>

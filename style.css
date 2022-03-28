@@ -1,0 +1,141 @@
+body {
+  background-color: #489cc1;
+}
+
+.section {
+  width: 80%;
+  height: 1000px;
+  margin: auto;
+  background-color: #fcfcfc;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 100px 550px 70px;
+  padding: 80px;
+  grid-gap: 40px;
+}
+
+.item {
+  color: #525651;
+}
+.item--1 {
+  text-align: center;
+  font-size: 80px;
+  color: #a9abb6;
+}
+.item--2 {
+  text-align: center;
+  font-size: 80px;
+  display: grid;
+  grid-template-columns: 1100px 130px;
+  grid-gap: 20px;
+}
+.item--2 .it--1 {
+  border: 1px #489cc1 solid;
+  opacity: 30%;
+}
+.item--2 .it--2 {
+  background-color: #59a3c8;
+  font-weight: bold;
+}
+.item--3 {
+  display: grid;
+  grid-template-columns: 1120px 133px;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  margin-bottom: 100px;
+}
+.item--3 .it1--1 {
+  background-color: #c8d2d7;
+  display: flex;
+}
+.item--3 .it1--2 {
+  background-color: #c8d2d7;
+  height: 78px;
+}
+.item--3 .it1--3 {
+  background-color: #f9fdff;
+  display: flex;
+}
+.item--3 .it1--4 {
+  background-color: #f9fdff;
+}
+.item--3 .it1--5 {
+  background-color: #c8d2d7;
+  display: flex;
+}
+.item--3 .it1--6 {
+  background-color: #c8d2d7;
+}
+.item--3 .it1--7 {
+  background-color: #f9fdff;
+  display: flex;
+}
+.item--3 .it1--8 {
+  background-color: #f9fdff;
+}
+.item--3 .it1--9 {
+  background-color: #c8d2d7;
+  display: flex;
+}
+.item--3 .it1--10 {
+  background-color: #c8d2d7;
+}
+.item--4 {
+  display: grid;
+  grid-template-columns: 800px 455px;
+}
+.item--4 .it2--1 :nth-child(1) {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-left: 100px;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 160px;
+  background-color: #97e44a;
+}
+.item--4 .it2--1 :nth-child(2) {
+  padding-bottom: 85px;
+  padding-right: 100px;
+  font-size: 30px;
+}
+.item--4 .it2--2 {
+  background-color: #4a9abf;
+  color: #d3f2f9;
+  font-size: 50px;
+  padding-left: 45px;
+}
+
+.osa {
+  margin-top: 30px;
+  display: flex;
+  width: 50px;
+  height: 40px;
+}
+
+.material-icons {
+  color: #cbe7f2;
+  opacity: 80%;
+  margin-top: 36px;
+  margin-left: 30px;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.line1 {
+  text-decoration: none;
+}
+
+.fin {
+  visibility: hidden;
+}
+
+div .addList {
+  width: 1000px;
+  background-color: aqua;
+}
+
+#span11 {
+  background-color: aqua;
+}/*# sourceMappingURL=style.css.map */
